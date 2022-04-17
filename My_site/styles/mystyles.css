@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(244, 241, 238);
+}
+
+.font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.myborder{ 
+    border-top: 4px solid rgb(139, 3, 3);
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 4px solid rgb(139, 3, 3);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .center{
+      text-align: center;
+      font-size: larger;
+  }
+
+.color{
+    color:rgb(139, 3, 3) ;
+}
+
+.centerpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
